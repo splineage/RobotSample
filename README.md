@@ -1,29 +1,29 @@
 # RobotSample
-## 1.目录结构
+## 1.디렉토리 구조
 
-├─app 业务代码  
+├─app 비즈니스 코드
 │  ├─robotos  
-│  │  ├─application 应用配置  
-│  │  │	    ├─ ModuleCallback.java 获取CoreService层底层回调接口  
-│  │  │     ├─ RobotOSApplication.java 当前Application入口，用来连接CoreService和初始化语音  
-│  │  │     ├─ SpeechCallback.java 获取语音SkillApi回调接口  
-│  │  ├─fragment 业务场景  
-│  │  │     ├─ BaseFragment.java 基础业务场景配置，加载公共组件部分  
-│  │  │     ├─ ChargeFragment.java 充电业务模块  
-│  │  │     ├─ LeadFragment.java 引领业务模块  
-│  │  │     ├─ LocationFragment.java 定位相关模块  
-│  │  │     ├─ MainFragment.java 场景模块主入口  
-│  │  │     ├─ NavigationFragment.java 导航业务模块  
-│  │  │     ├─ SpeechFragment.java 语音业务模块  
-│  │  │     ├─ SportFragment.java 基础运动业务模块  
-│  │  │     ├─ VisionFragment.java 视觉业务模块  
-│  │  ├─ view 公共组件  
-│  │  │     ├─ BackView.java 返回控件  
-│  │  │     ├─ ResultView.java 结果显示控件  
-│  │  ├─ LogTools.java 日志收集工具  
-│  │  ├─ MainActivity.java App主页面入口  
-│  ├─ res 资源目录  
-│  ├─AndroidManifest.xml App的清单文件  
+│  │  ├─application 프로그램 구성
+│  │  │	    ├─ ModuleCallback.java CoreService 계층의 기본 콜백 인터페이스 가져오기
+│  │  │     ├─ RobotOSApplication.java CoreService 연결 및 음성 초기화에 사용되는 현재 애플리케이션 항목
+│  │  │     ├─ SpeechCallback.java 음성 SkillApi 콜백 인터페이스 가져오기
+│  │  ├─fragment 비즈니스 시나리오
+│  │  │     ├─ BaseFragment.java 기본 비즈니스 시나리오 구성, 공용 구성 요소 로드
+│  │  │     ├─ ChargeFragment.java 충전 비즈니스 모듈
+│  │  │     ├─ LeadFragment.java 리드 비즈니스 모듈
+│  │  │     ├─ LocationFragment.java 위치 관련 모듈
+│  │  │     ├─ MainFragment.java 모듈 시작 위치
+│  │  │     ├─ NavigationFragment.java 네비게이션 비즈니스 모듈
+│  │  │     ├─ SpeechFragment.java 음성 서비스 모듈
+│  │  │     ├─ SportFragment.java 기본 스포츠 비즈니스 모듈
+│  │  │     ├─ VisionFragment.java 비전 비즈니스 모듈
+│  │  ├─ view 공개 구성요소
+│  │  │     ├─ BackView.java 반환 제어
+│  │  │     ├─ ResultView.java 결과 표시 제어
+│  │  ├─ LogTools.java 로그 수집 도구
+│  │  ├─ MainActivity.java 앱 메인 페이지 항목
+│  ├─ res 리소스 디렉토리
+│  ├─AndroidManifest.xml 앱 매니페스트 파일
 │
 
 ## 2. 环境配置
